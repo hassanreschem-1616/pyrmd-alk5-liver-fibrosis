@@ -1,0 +1,16 @@
+# PyRMD is distributed by its authors (AGPL-3.0); download it into pyrmd/ yourself
+pyrmd/*.py
+
+# Large intermediate files written by PyRMD
+results/**/clean_training_db.csv
+results/**/chembl_discarded.csv
+results/**/*inactives_similarity*.csv
+results/epsilon_scan/*.ini
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+pyrmd-env/
+.venv/
+.DS_Store
