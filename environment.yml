@@ -1,0 +1,16 @@
+# Environment for the Jupyter notebooks (data curation and results analysis)
+name: alk5-notebooks
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - rdkit>=2023.09
+  - pandas>=2.2
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+      - chembl_webresource_client

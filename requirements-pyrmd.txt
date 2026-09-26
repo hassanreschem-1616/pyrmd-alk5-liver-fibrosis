@@ -1,0 +1,11 @@
+# Pinned versions that run PyRMD_v1.03.py on Python 3.11 (tested).
+# PyRMD needs scikit-learn < 1.2 and Open Babel's Python bindings.
+numpy==1.23.5
+pandas==1.5.3
+scipy==1.10.1
+scikit-learn==1.1.3
+statsmodels==0.13.5
+matplotlib==3.6.3
+seaborn==0.12.2
+rdkit==2022.9.5
+openbabel-wheel
